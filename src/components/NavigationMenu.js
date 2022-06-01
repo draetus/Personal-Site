@@ -1,36 +1,44 @@
 import React, { Component } from "react";
 import SimpleTabs from "../subcomponents/SimpleTabs";
+import Home from "../pages/Home";
+import AcademicFormation from "../pages/AcademicFormation";
+import LicensesAndCertificates from "../pages/LicensesAndCertificates";
+import ProfessionalExperience from "../pages/ProfessionalExperience";
+import WorkedTechnologies from "../pages/WorkedTechnologies";
+import ProjectsWorked from "../pages/ProjectsWorked";
+import ToStudy from "../pages/ToStudy";
+
 
 export default class NavigationMenu extends Component {
 
     pages = [
         {
             label: "Introdução",
-            page: () => (<p>Introducao</p>)
+            page: () => (<Home />)
         },
         {
             label: "Formação Acadêmica",
-            page: () => (<p>Formação Academica</p>)
+            page: () => (<AcademicFormation />)
         },
         {
             label: "Licenças e Certificados",
-            page: () => (<p>Licenças e Certificados</p>)
+            page: () => (<LicensesAndCertificates />)
         },
         {
             label: "Experiência Profissional",
-            page: () => (<p>Experiência Profissional</p>)
+            page: () => (<ProfessionalExperience />)
         },
         {
             label: "Tecnologias Trabalhadas",
-            page: () => (<p>Tecnologias Trabalhadas</p>)
+            page: () => (<WorkedTechnologies />)
         },
         {
             label: "Projetos Trabalhos",
-            page: () => (<p>Projetos Trabalhados</p>)
+            page: () => (<ProjectsWorked />)
         },
         {
             label: "Em estudo",
-            page: () => (<p>Em estudo</p>)
+            page: () => (<ToStudy />)
         }
     ]
     

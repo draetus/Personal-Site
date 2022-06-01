@@ -4,7 +4,10 @@ export default class ProfessionalExperience extends Component {
 
     render() {
         return (
-            <p> TOOD: IMPLEMENTAR EXPERIENCIA PROFISSIONAL </p>
+            <>
+                <h1> PALMSOFT & DEEPEN </h1>
+                <h1> SULAMÉRICA </h1>
+            </>
         )
     }
 

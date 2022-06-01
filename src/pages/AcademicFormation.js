@@ -4,7 +4,7 @@ export default class AcademicFormation extends Component {
 
     render() {
         return (
-            <p> TOOD: IMPLEMENTAR FORMAÇÃO ACADEMICA </p>
+            <h1> BACHARELADO CIÊNCIA DA COMPUTAÇÃO </h1>
         )
     }
 
