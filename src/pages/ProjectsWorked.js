@@ -13,6 +13,7 @@ export default class ProjectsWorked extends Component {
                 <h1>BMS - QUALLITE</h1>
                 <h1>BEWIKI</h1>
                 <h1>CONTROLVP</h1>
+                <h1>SEGURO VIAGEM API</h1>
             </>
         )
     }

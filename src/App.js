@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavigationMenu from "./components/NavigationMenu";
 import Footer from "./components/Footer";
@@ -6,8 +6,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <NavigationMenu />
+      <div style={{flex: "1"}}>
+        <NavigationMenu />
+      </div>
+      <div style={{flex: "2"}}>
       <Footer />
+      </div>
     </div>
   );
 }

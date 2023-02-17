@@ -27,6 +27,7 @@ export default function SimpleTabs(props) {
             (
               <Tab 
               label={item.label} 
+              icon={item.icon}
               {...a11yProps(index)}
               centered
                />
