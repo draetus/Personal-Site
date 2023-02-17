@@ -14,6 +14,9 @@ export default class Footer extends Component {
 
 const styles = {
     footer: {
-        backgroundColor: "yellow"
+        float: "left",
+        backgroundColor: "yellow",
+        height: "60px",
+        width: "100%"
     }
 }
